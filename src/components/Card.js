@@ -4,7 +4,7 @@ function Card({review}) {
     console.log(review.text);
     return (
         <div className='flex flex-col md:relative'>
-            <div className='absolute lg:top-[-7rem] top-[11rem] z-[10] mx-auto'>
+            <div className='absolute lg:top-[-7rem] top-[7rem] z-[10] mx-auto'>
         <img 
         className="aspect-square rounded-full lg:w-[140px] lg:h-[140px] z-[25] w-[5rem]"
         src={review.image}/>
